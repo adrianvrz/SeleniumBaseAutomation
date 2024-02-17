@@ -8,11 +8,9 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-// Add the missing dependency for io.github.bonigarcia.wdm.WebDriverManager
 
 
-
-public class freeRangerTest {
+public class ExampleWebTest {
 
     private WebDriver driver;
 
@@ -23,8 +21,8 @@ public class freeRangerTest {
     }
     
     @Test
-    public void navegamosAFreeRangertesters() {
-        driver.get("https://www.freerangetesters.com");
+    public void navigateToExampleWeb() {
+        driver.get("https://www.example.com");
     }
 
     @AfterMethod
